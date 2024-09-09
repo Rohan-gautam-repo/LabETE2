@@ -18,6 +18,19 @@
         <div id="dogImagesContainer"></div>
     </div>
 
-    <script src="script.js"></script>
+    <script>
+        fetch('https://dog.ceo/api/breeds/image/random/3')
+            .then(response => response.json())
+            .then(data => {
+                const container = document.getElementById('dogImagesContainer');
+                data.message.forEach(imageUrl => {
+                    const img = document.createElement('img');
+                    img.src = imageUrl;
+                    img.alt = "Random Dog";
+                    container.appendChild(img);
+                });
+            })
+            .catch(error => console.log('Error fetching dog images:', error));
+    </script>
 </body>
 </html>

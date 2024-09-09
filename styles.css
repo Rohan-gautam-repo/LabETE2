@@ -75,3 +75,17 @@ button {
 button:hover {
     background-color: #357ABD;
 }
+
+#dogImagesContainer img {
+    margin: 10px;
+    border-radius: 8px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 20px;
+}

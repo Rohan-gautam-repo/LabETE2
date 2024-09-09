@@ -1,50 +1,29 @@
-<!-- develp an interactive web application that displays random images of cat breeds.the application
- should fetch images from the cat API and display it on the html page (Ehenever the fetch button is clicked
- cat image should be fetched and displayed) 
- Additionally include a sihn-up form with validation for cat lovers.
- Create a JSON file with 6 records with the following fields.
- (Example-"id":"aege","name":"Aegean","temperature":"affectionate, Spcial intelligent,Playful,,Active","origin":"Greece","discription":
- "Native to the Greek island known as the Cyclades in the Aegean sea,these are the natural cats, meaning they developed without  humans
- getting involved in their breeding.A a breed, Aegean Cats are rare, although they are numerous on their home island. They generally
-  friendly towards people and can be excellent cats for families with children.", "life_span":"9-12"
-  url for the API = https:cdn2.thecatapi.com/images/ozEvzdVM-.JPG).
-  Make the about us page with heros and align it well.
-  give me the complete code and give me all the files seperately and use appropriate modals for the navbar and 
-  bacground color and the 
- -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dog Breed App</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="signup.html">Sign Up</a></li>
+        </ul>
+    </nav>
 
-<!-- make the signup form in the correct order and hold it in the middle of the page and make the about up pahe have
- hero color something cool and there the json file data should be displayed and the signup form should be 
- validated by javascript write the code there itself and it should have Name,Email,Password  -->
+    <div class="container">
+        <h1>Dog Breed App</h1>
+        <button id="fetchBtn">Fetch Random Dog Images</button>
+    </div>
 
-
-
-
-
-
-   <!DOCTYPE html>
-   <html lang="en">
-   <head>
-       <meta charset="UTF-8">
-       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-       <title>Dog Breed API</title>
-       <link rel="stylesheet" href="styles.css">
-   </head>
-   <body>
-       <nav>
-           <ul>
-               <li><a href="index.html">Home</a></li>
-               <li><a href="about.html">About Us</a></li>
-               <li><a href="signup.html">Sign Up</a></li>
-           </ul>
-       </nav>
-   
-       <div class="container">
-           <h1>Dog Breed API</h1>
-           <button id="fetchBtn">Fetch Random Dog Images</button>
-       </div>
-   
-       <script src="script.js"></script>
-   </body>
-   </html>
-   
+    <script>
+        document.getElementById('fetchBtn').addEventListener('click', function () {
+            window.location.href = "index1.html";
+        });
+    </script>
+</body>
+</html>
