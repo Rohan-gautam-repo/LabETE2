@@ -1,0 +1,30 @@
+[
+    {
+      "id": "germanshepherd",
+      "name": "German Shepherd",
+      "temperature": "Loyal, Confident, Courageous",
+      "origin": "Germany",
+      "description": "German Shepherds are one of the most popular dog breeds worldwide, known for their intelligence and versatility.",
+      "life_span": "9-13 years",
+      "url": "https://images.dog.ceo/breeds/germanshepherd/n02106662_5169.jpg"
+    },
+    {
+      "id": "bouvier",
+      "name": "Bouvier des Flandres",
+      "temperature": "Protective, Loyal, Intelligent",
+      "origin": "Belgium",
+      "description": "Bouviers are powerful dogs known for their working abilities and their friendly nature.",
+      "life_span": "10-12 years",
+      "url": "https://images.dog.ceo/breeds/bouvier/n02106382_886.jpg"
+    },
+    {
+      "id": "boxer",
+      "name": "Boxer",
+      "temperature": "Energetic, Loyal, Playful",
+      "origin": "Germany",
+      "description": "Boxers are known for their playful and energetic personalities, making them excellent family pets.",
+      "life_span": "10-12 years",
+      "url": "https://images.dog.ceo/breeds/boxer/n02108089_3269.jpg"
+    }
+  ]
+  
